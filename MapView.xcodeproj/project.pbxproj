@@ -51,6 +51,7 @@
 		FD2035CA1EF803CD0039E132 /* MapViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2035CE1EF803CD0039E132 /* MapViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewUITests.m; sourceTree = "<group>"; };
 		FD2035D01EF803CD0039E132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD2035DD1EF8044A0039E132 /* IMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMapView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		FD2035A81EF803CD0039E132 /* MapView */ = {
 			isa = PBXGroup;
 			children = (
+				FD2035DC1EF804180039E132 /* Views */,
 				FD2035AC1EF803CD0039E132 /* AppDelegate.h */,
 				FD2035AD1EF803CD0039E132 /* AppDelegate.m */,
 				FD2035AF1EF803CD0039E132 /* ViewController.h */,
@@ -138,6 +140,14 @@
 				FD2035D01EF803CD0039E132 /* Info.plist */,
 			);
 			path = MapViewUITests;
+			sourceTree = "<group>";
+		};
+		FD2035DC1EF804180039E132 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD2035DD1EF8044A0039E132 /* IMapView.h */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +217,7 @@
 				TargetAttributes = {
 					FD2035A51EF803CD0039E132 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YK8FM328G9;
 						ProvisioningStyle = Automatic;
 					};
 					FD2035BE1EF803CD0039E132 = {
@@ -424,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YK8FM328G9;
 				INFOPLIST_FILE = MapView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lyp.MapView;
@@ -435,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YK8FM328G9;
 				INFOPLIST_FILE = MapView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lyp.MapView;
