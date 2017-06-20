@@ -6,8 +6,10 @@
 //  Copyright © 2017年 情风. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @protocol IMapView <NSObject>
+
+- (UIView *)getMapView;
 
 @end

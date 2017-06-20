@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67D6A220C525A5F115B9168F /* libPods-MapView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECCA220531E3ABB96754D3E /* libPods-MapView.a */; };
+		B802AEFA0FDA25AA08B52223 /* libPods-MapViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 882E8D2707A3C336EBC5CEC7 /* libPods-MapViewTests.a */; };
+		D6055AEB67C2A93EBF9F2735 /* libPods-MapViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86206862F8A89FC9F5FF1A0B /* libPods-MapViewUITests.a */; };
+		FD13BB3D1EF811E7003704D0 /* QFGaodeMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD13BB3C1EF811E7003704D0 /* QFGaodeMapView.m */; };
+		FD13BB421EF814E1003704D0 /* QFBaiduMapFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FD13BB411EF814E1003704D0 /* QFBaiduMapFactory.m */; };
 		FD2035AB1EF803CD0039E132 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2035AA1EF803CD0039E132 /* main.m */; };
 		FD2035AE1EF803CD0039E132 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2035AD1EF803CD0039E132 /* AppDelegate.m */; };
 		FD2035B11EF803CD0039E132 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2035B01EF803CD0039E132 /* ViewController.m */; };
@@ -15,6 +20,9 @@
 		FD2035B91EF803CD0039E132 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2035B71EF803CD0039E132 /* LaunchScreen.storyboard */; };
 		FD2035C41EF803CD0039E132 /* MapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2035C31EF803CD0039E132 /* MapViewTests.m */; };
 		FD2035CF1EF803CD0039E132 /* MapViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2035CE1EF803CD0039E132 /* MapViewUITests.m */; };
+		FD2035E31EF805660039E132 /* QFBaiduMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2035E21EF805660039E132 /* QFBaiduMapView.m */; };
+		FDDCF7631EF94B26000C8DB5 /* QFGaodeMapFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCF7621EF94B26000C8DB5 /* QFGaodeMapFactory.m */; };
+		FDDCF7691EF9532F000C8DB5 /* MapEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCF7681EF9532F000C8DB5 /* MapEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		389BE0519D406D11F8FCC919 /* Pods-MapViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapViewTests/Pods-MapViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D5E32EE518AA18015E0A857 /* Pods-MapViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapViewUITests/Pods-MapViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6ECCA220531E3ABB96754D3E /* libPods-MapView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86206862F8A89FC9F5FF1A0B /* libPods-MapViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		882E8D2707A3C336EBC5CEC7 /* libPods-MapViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4659CFCEC9B3810A7751AB /* Pods-MapViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapViewUITests/Pods-MapViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CDF2E6C1094246536D9DE4AA /* Pods-MapView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapView/Pods-MapView.debug.xcconfig"; sourceTree = "<group>"; };
+		D8A5A23E4C2434160D3F2522 /* Pods-MapView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapView.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapView/Pods-MapView.release.xcconfig"; sourceTree = "<group>"; };
+		E9C0DA191D67DB166742E01A /* Pods-MapViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapViewTests/Pods-MapViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD13BB3A1EF80811003704D0 /* IMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMapView.h; sourceTree = "<group>"; };
+		FD13BB3B1EF811E7003704D0 /* QFGaodeMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFGaodeMapView.h; sourceTree = "<group>"; };
+		FD13BB3C1EF811E7003704D0 /* QFGaodeMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFGaodeMapView.m; sourceTree = "<group>"; };
+		FD13BB3F1EF81416003704D0 /* IMapFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMapFactory.h; sourceTree = "<group>"; };
+		FD13BB401EF814E1003704D0 /* QFBaiduMapFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFBaiduMapFactory.h; sourceTree = "<group>"; };
+		FD13BB411EF814E1003704D0 /* QFBaiduMapFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFBaiduMapFactory.m; sourceTree = "<group>"; };
 		FD2035A61EF803CD0039E132 /* MapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2035AA1EF803CD0039E132 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD2035AC1EF803CD0039E132 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,7 +74,12 @@
 		FD2035CA1EF803CD0039E132 /* MapViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2035CE1EF803CD0039E132 /* MapViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewUITests.m; sourceTree = "<group>"; };
 		FD2035D01EF803CD0039E132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD2035DD1EF8044A0039E132 /* IMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMapView.h; sourceTree = "<group>"; };
+		FD2035E11EF805660039E132 /* QFBaiduMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFBaiduMapView.h; sourceTree = "<group>"; };
+		FD2035E21EF805660039E132 /* QFBaiduMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFBaiduMapView.m; sourceTree = "<group>"; };
+		FDDCF7611EF94B26000C8DB5 /* QFGaodeMapFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFGaodeMapFactory.h; sourceTree = "<group>"; };
+		FDDCF7621EF94B26000C8DB5 /* QFGaodeMapFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFGaodeMapFactory.m; sourceTree = "<group>"; };
+		FDDCF7671EF9532F000C8DB5 /* MapEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapEngine.h; sourceTree = "<group>"; };
+		FDDCF7681EF9532F000C8DB5 /* MapEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapEngine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D6A220C525A5F115B9168F /* libPods-MapView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B802AEFA0FDA25AA08B52223 /* libPods-MapViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +103,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6055AEB67C2A93EBF9F2735 /* libPods-MapViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22A18F188229AB78EC25346A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2E6C1094246536D9DE4AA /* Pods-MapView.debug.xcconfig */,
+				D8A5A23E4C2434160D3F2522 /* Pods-MapView.release.xcconfig */,
+				E9C0DA191D67DB166742E01A /* Pods-MapViewTests.debug.xcconfig */,
+				389BE0519D406D11F8FCC919 /* Pods-MapViewTests.release.xcconfig */,
+				5D5E32EE518AA18015E0A857 /* Pods-MapViewUITests.debug.xcconfig */,
+				9B4659CFCEC9B3810A7751AB /* Pods-MapViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3A91EADF00A7EE9C3BFF6760 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCA220531E3ABB96754D3E /* libPods-MapView.a */,
+				882E8D2707A3C336EBC5CEC7 /* libPods-MapViewTests.a */,
+				86206862F8A89FC9F5FF1A0B /* libPods-MapViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD13BB3E1EF813EA003704D0 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCF7671EF9532F000C8DB5 /* MapEngine.h */,
+				FDDCF7681EF9532F000C8DB5 /* MapEngine.m */,
+				FD13BB3F1EF81416003704D0 /* IMapFactory.h */,
+				FDDCF7611EF94B26000C8DB5 /* QFGaodeMapFactory.h */,
+				FDDCF7621EF94B26000C8DB5 /* QFGaodeMapFactory.m */,
+				FD13BB401EF814E1003704D0 /* QFBaiduMapFactory.h */,
+				FD13BB411EF814E1003704D0 /* QFBaiduMapFactory.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 		FD20359D1EF803CD0039E132 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +154,8 @@
 				FD2035C21EF803CD0039E132 /* MapViewTests */,
 				FD2035CD1EF803CD0039E132 /* MapViewUITests */,
 				FD2035A71EF803CD0039E132 /* Products */,
+				22A18F188229AB78EC25346A /* Pods */,
+				3A91EADF00A7EE9C3BFF6760 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +172,7 @@
 		FD2035A81EF803CD0039E132 /* MapView */ = {
 			isa = PBXGroup;
 			children = (
+				FD13BB3E1EF813EA003704D0 /* Factory */,
 				FD2035DC1EF804180039E132 /* Views */,
 				FD2035AC1EF803CD0039E132 /* AppDelegate.h */,
 				FD2035AD1EF803CD0039E132 /* AppDelegate.m */,
@@ -145,7 +216,11 @@
 		FD2035DC1EF804180039E132 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FD2035DD1EF8044A0039E132 /* IMapView.h */,
+				FD2035E11EF805660039E132 /* QFBaiduMapView.h */,
+				FD2035E21EF805660039E132 /* QFBaiduMapView.m */,
+				FD13BB3A1EF80811003704D0 /* IMapView.h */,
+				FD13BB3B1EF811E7003704D0 /* QFGaodeMapView.h */,
+				FD13BB3C1EF811E7003704D0 /* QFGaodeMapView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD2035D31EF803CD0039E132 /* Build configuration list for PBXNativeTarget "MapView" */;
 			buildPhases = (
+				B2F873878DE79B2C0E3B8C4D /* [CP] Check Pods Manifest.lock */,
 				FD2035A21EF803CD0039E132 /* Sources */,
 				FD2035A31EF803CD0039E132 /* Frameworks */,
 				FD2035A41EF803CD0039E132 /* Resources */,
+				29CBD247703EF57F4106AB4A /* [CP] Embed Pods Frameworks */,
+				40F5288F7FBA0DACDED330B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD2035D61EF803CD0039E132 /* Build configuration list for PBXNativeTarget "MapViewTests" */;
 			buildPhases = (
+				C3ECD4D19FEA7292DEAA48A3 /* [CP] Check Pods Manifest.lock */,
 				FD2035BB1EF803CD0039E132 /* Sources */,
 				FD2035BC1EF803CD0039E132 /* Frameworks */,
 				FD2035BD1EF803CD0039E132 /* Resources */,
+				4B2FC0E18F7EDAD7CDFF8348 /* [CP] Embed Pods Frameworks */,
+				416BAA2A9471A3FD8D92597D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD2035D91EF803CD0039E132 /* Build configuration list for PBXNativeTarget "MapViewUITests" */;
 			buildPhases = (
+				145010B6A4C90F830712FF82 /* [CP] Check Pods Manifest.lock */,
 				FD2035C61EF803CD0039E132 /* Sources */,
 				FD2035C71EF803CD0039E132 /* Frameworks */,
 				FD2035C81EF803CD0039E132 /* Resources */,
+				1B946ECF651E50B36D6DD745 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,14 +362,142 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		145010B6A4C90F830712FF82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1B946ECF651E50B36D6DD745 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapViewUITests/Pods-MapViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29CBD247703EF57F4106AB4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapView/Pods-MapView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40F5288F7FBA0DACDED330B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapView/Pods-MapView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		416BAA2A9471A3FD8D92597D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapViewTests/Pods-MapViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B2FC0E18F7EDAD7CDFF8348 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapViewTests/Pods-MapViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F873878DE79B2C0E3B8C4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3ECD4D19FEA7292DEAA48A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD2035A21EF803CD0039E132 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD2035E31EF805660039E132 /* QFBaiduMapView.m in Sources */,
+				FDDCF7631EF94B26000C8DB5 /* QFGaodeMapFactory.m in Sources */,
+				FDDCF7691EF9532F000C8DB5 /* MapEngine.m in Sources */,
 				FD2035B11EF803CD0039E132 /* ViewController.m in Sources */,
 				FD2035AE1EF803CD0039E132 /* AppDelegate.m in Sources */,
 				FD2035AB1EF803CD0039E132 /* main.m in Sources */,
+				FD13BB421EF814E1003704D0 /* QFBaiduMapFactory.m in Sources */,
+				FD13BB3D1EF811E7003704D0 /* QFGaodeMapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,30 +644,35 @@
 		};
 		FD2035D41EF803CD0039E132 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF2E6C1094246536D9DE4AA /* Pods-MapView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YK8FM328G9;
 				INFOPLIST_FILE = MapView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lyp.MapView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slwy.shanglv51;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		FD2035D51EF803CD0039E132 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A5A23E4C2434160D3F2522 /* Pods-MapView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YK8FM328G9;
 				INFOPLIST_FILE = MapView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lyp.MapView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slwy.shanglv51;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		FD2035D71EF803CD0039E132 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9C0DA191D67DB166742E01A /* Pods-MapViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MapViewTests/Info.plist;
@@ -469,6 +685,7 @@
 		};
 		FD2035D81EF803CD0039E132 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 389BE0519D406D11F8FCC919 /* Pods-MapViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MapViewTests/Info.plist;
@@ -481,6 +698,7 @@
 		};
 		FD2035DA1EF803CD0039E132 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5E32EE518AA18015E0A857 /* Pods-MapViewUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MapViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -492,6 +710,7 @@
 		};
 		FD2035DB1EF803CD0039E132 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4659CFCEC9B3810A7751AB /* Pods-MapViewUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MapViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -520,6 +739,7 @@
 				FD2035D51EF803CD0039E132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD2035D61EF803CD0039E132 /* Build configuration list for PBXNativeTarget "MapViewTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +748,7 @@
 				FD2035D81EF803CD0039E132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD2035D91EF803CD0039E132 /* Build configuration list for PBXNativeTarget "MapViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +757,7 @@
 				FD2035DB1EF803CD0039E132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

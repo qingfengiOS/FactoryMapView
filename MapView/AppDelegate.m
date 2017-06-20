@@ -7,16 +7,32 @@
 //
 
 #import "AppDelegate.h"
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>//引入base相关所有的头文件
+#import <BaiduMapAPI_Map/BMKMapComponent.h>//引入地图功能所有的头文件
+//#import <BaiduMapAPI_Search/BMKSearchComponent.h>//引入检索功能所有的头文件
+//#import <BaiduMapAPI_Cloud/BMKCloudSearchComponent.h>//引入云检索功能所有的头文件
+//#import <BaiduMapAPI_Location/BMKLocationComponent.h>//引入定位功能所有的头文件
+//#import <BaiduMapAPI_Utils/BMKUtilsComponent.h>//引入计算工具所有的头文件
+
+#import <AMapFoundationKit/AMapFoundationKit.h>
 
 @interface AppDelegate ()
-
+@property(nonatomic, strong) BMKMapManager *mapManager;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    _mapManager = [[BMKMapManager alloc]init];
+    // 如果要关注网络及授权验证事件，请设定     generalDelegate参数
+    BOOL ret = [_mapManager start:@"y3KDGN4MQErtfWpQcvCxybbefWANkmGu"  generalDelegate:nil];
+    if (!ret) {
+        NSLog(@"manager start failed!");
+    }
+
+    [AMapServices sharedServices].apiKey = @"052545d9b2b794309b8911f86f9e06bc";
     return YES;
 }
 
